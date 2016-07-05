@@ -1,5 +1,7 @@
 angular.module('udemyrapidproto', [
   'ionic',
+  'nvd3',
+  'nvChart',
   'udemyrapidproto.controllers',
   'udemyrapidproto.services',
   'udemyrapidproto.filters',
