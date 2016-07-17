@@ -1,7 +1,11 @@
 angular.module('udemyrapidproto', [
   'ionic',
+  'ngCordova',
+  'firebase',
+  'angular-cache',
   'nvd3',
   'nvChart',
+  'cb.x2js',
   'udemyrapidproto.controllers',
   'udemyrapidproto.services',
   'udemyrapidproto.filters',
@@ -19,7 +23,7 @@ angular.module('udemyrapidproto', [
     }
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
+      StatusBar.styleHex("#ffffff");
     }
   });
 })
